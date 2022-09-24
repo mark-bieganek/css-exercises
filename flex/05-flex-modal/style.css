@@ -64,3 +64,40 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* CSS added for tutorial */
+
+* {
+  box-sizing: border-box;
+}
+
+.modal {
+  display: flex;
+  padding:16px;
+}
+
+.icon {
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
+}
+
+.inner {
+  margin-left: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+  margin:0;
+}
+
+.actions {
+  margin-top: 16px;
+}
